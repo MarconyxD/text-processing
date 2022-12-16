@@ -40,7 +40,7 @@ For the collection of texts used, the word with the highest number of occurrence
 As a complement, a graph is also printed that demonstrates the relationship between the 10 words and the number of times they appear.
 
 <p align="center">
-<img width="600" src="/Figures/01.png" alt="Figure 01">
+<img width="400" src="/Figures/01.png" alt="Figure 01">
 </p>
 
 ## Script 02: Inverted Index and search by query
@@ -49,10 +49,10 @@ The Inverted Index is nothing more than the presentation of each existing word i
 
 As previously done, the texts are pre-processed.
 
-Based on the result, a .pkl file is created with the Inverted Index and the Normal Word Index, in which the occurrence of words in each text is shown.
+Based on the result, a .pkl file is created with the Inverted Index and the Normal Word Index, in which the occurrence of words in each text is shown. To save the .pkl document, there must be a folder called obj in the same directory as the code script.
 
 <p align="center">
-<img width="600" src="/Figures/02.png" alt="Figure 02">
+<img width="700" src="/Figures/02.png" alt="Figure 02">
 </p>
 
 ## Script 03: Vector Model and Ranking
@@ -64,7 +64,7 @@ In this case, only the 10 most relevant texts are printed, to avoid excessive in
 For example, for the term POIS, the following result is displayed:
 
 <p align="center">
-<img width="600" src="/Figures/03.png" alt="Figure 03">
+<img width="300" src="/Figures/03.png" alt="Figure 03">
 </p>
 
 The score indicates the relevance of the text to the search term. To search terms, simply change the value of the search_terms variable on line 51.
